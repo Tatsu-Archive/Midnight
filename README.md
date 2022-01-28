@@ -1,6 +1,6 @@
 # Midnight V2.0
 ### Lights Out.
-
+![image](https://user-images.githubusercontent.com/87627258/151586175-4c672512-0640-48d5-b4d3-b2f85fd24cae.png)
 ### Installation
 To Download and Install the Theme for Powercord use this command:
 ```
