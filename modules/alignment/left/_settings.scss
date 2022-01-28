@@ -1,38 +1,43 @@
-
 .contentRegion-3HkfJJ {
-    flex: auto !important;
-    width: 100%;
-  }
-  
-  // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-  // ║ Layout                   ║ Settings (Base)                                                                         ║
-  // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-  
-  //Spacing
-  .layers-OrUESM > .layer-86YKbF:first-child {
+  flex: auto !important;
+  width: 100%;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Layout                   ║ Settings (Base)                                                                         ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+//Spacing
+.layers-OrUESM > .layer-86YKbF:first-child {
   transform: none !important;
   opacity: 1 !important;
-  }
-      
-  .layers-OrUESM > .layer-86YKbF.stop-animations:first-child {
+}
+
+.layers-OrUESM > .layer-86YKbF.stop-animations:first-child {
   z-index: 1;
-  }
-  
-  // Spacing
-  .standardSidebarView-E9Pc3j {
+}
+
+// Spacing
+.standardSidebarView-E9Pc3j {
   background: transparent !important;
-  margin-top: calc(var(--layout-margin-top) + 40px + var(--layout) + var(--layout));
-  margin-bottom: calc(var(--layout-margin-top) + 120px + var(--layout) + var(--layout));
-  margin-left: calc(var(--layout-margin-left) + var(--layout-margin-left) + 70px);
-  margin-right:  var(--layout-margin-right);
-  }
-  
-  // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-  // ║ Layout                   ║ Settings (Hide)                                                                         ║
-  // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-  
-  // Hide when open Settings
-  [aria-hidden="true"] {
+  margin-top: calc(
+    var(--layout-margin-top) + 40px + var(--layout) + var(--layout)
+  );
+  margin-bottom: calc(
+    var(--layout-margin-top) + 120px + var(--layout) + var(--layout)
+  );
+  margin-left: calc(
+    var(--layout-margin-left) + var(--layout-margin-left) + 70px
+  );
+  margin-right: var(--layout-margin-right);
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Layout                   ║ Settings (Hide)                                                                         ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Hide when open Settings
+[aria-hidden="true"] {
   .notice-2HEN-u,
   .notice-1x8lm-,
   .chat-2ZfjoI,
@@ -41,85 +46,97 @@
   .scroller-3X7KbA,
   .scrollerBase-_bVAAt,
   .pageWrapper-2PwDoS,
-  .privateChannels-oVe7HL {opacity: 0; z-index: -999;}
-  .chat-2ZfjoI {opacity: 0; z-index: -999;}
-  .bg-1QIAus {z-index: 999;}
-  .powercord-spotify {display: none !important;}
-  .BF-folderSidebar {display: none !important;}
-  .panel-2ZFCRb {display: none !important;}
-  .wrapper-3Hk9OB {display: none !important;}
+  .privateChannels-oVe7HL {
+    opacity: 0;
+    z-index: -999;
   }
-  
-  // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-  // ║ Layout                   ║ Settings (Sidebar)                                                                      ║
-  // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-  
-  // Background
-  .sidebarRegionScroller-FXiQOh {
+  .chat-2ZfjoI {
+    opacity: 0;
+    z-index: -999;
+  }
+  .bg-1QIAus {
+    z-index: 999;
+  }
+  .powercord-spotify {
+    display: none !important;
+  }
+  .BF-folderSidebar {
+    display: none !important;
+  }
+  .panel-2ZFCRb {
+    display: none !important;
+  }
+  .wrapper-3Hk9OB {
+    display: none !important;
+  }
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Layout                   ║ Settings (Sidebar)                                                                      ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Background
+.sidebarRegionScroller-FXiQOh {
   background: var(--background-secondary);
   border-radius: var(--radius-primary);
   max-width: var(--layout-width-channel) !important;
   width: var(--layout-width-channel) !important;
   justify-content: flex-start;
-  }
-  
-  
-  
-  .sidebar-nqHbhN {
+}
+
+.sidebar-nqHbhN {
   width: var(--layout-width-channel) !important;
   padding: 20px;
-  }
-  
-  // Flex
-  .sidebarRegion-1VBisG {
+}
+
+// Flex
+.sidebarRegion-1VBisG {
   flex: 1;
-  }
-  
-  
-  
-  // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-  // ║ Layout                   ║ Settings (Content)                                                                      ║
-  // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-  
-  // Spacing
-  .contentRegion-3HkfJJ {
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Layout                   ║ Settings (Content)                                                                      ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Spacing
+.contentRegion-3HkfJJ {
   position: relative;
   top: 0;
   margin-top: calc(-40px - var(--layout-margin-top));
   margin-bottom: calc(-120px - var(--layout-margin-bottom));
   margin-right: var(--layout-margin-right);
-  }
-  
-  .contentColumn-1C7as6 {
+}
+
+.contentColumn-1C7as6 {
   min-width: 200px;
   max-width: 100%;
-  }
-  
-  .contentColumnDefault-3eyv5o {
+}
+
+.contentColumnDefault-3eyv5o {
   padding: 20px;
-  }
-  
-  // Background
-  .contentRegionScroller-2_GT_N {
+}
+
+// Background
+.contentRegionScroller-2_GT_N {
   background: var(--background-secondary);
   border-radius: var(--radius-primary);
   margin-left: calc(var(--layout) + var(--layout));
   width: 100%;
-  }
-  
-  // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-  // ║ Layout                   ║ Settings (Close Button)                                                                 ║
-  // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-  
-  // Spacing
-  .toolsContainer-25FL6V{
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Layout                   ║ Settings (Close Button)                                                                 ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// Spacing
+.toolsContainer-25FL6V {
   position: fixed;
   top: 0;
   left: 0;
-  }
-  
-  // Background
-  .closeButton-PCZcma {
+}
+
+// Background
+.closeButton-PCZcma {
   background: var(--background-primary);
   position: fixed;
   left: 32px;
@@ -128,48 +145,54 @@
   border: none;
   height: 48px;
   width: 48px;
-  }
-  
-  // Disable
-  .keybind-13vtq8 {display: none;}
-  
-  // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-  // ║ Layout                   ║ Settings (Info)                                                                         ║
-  // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-  
-  .info-1sUqUG {
+}
+
+// Disable
+.keybind-13vtq8 {
+  display: none;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Layout                   ║ Settings (Info)                                                                         ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.info-1sUqUG {
   position: fixed;
-  
+
   background-color: blueviolet;
   opacity: 0.6;
-  
+
   //background: var(--background-secondary);
   width: var(--layout-width-channel);
   bottom: 0;
   left: 0;
-  margin-bottom: calc(var(--layout-margin-bottom) + 120px + var(--layout) + var(--layout));
-  margin-left: calc(var(--layout-margin-left) + var(--layout-margin-left) + 70px);
+  margin-bottom: calc(
+    var(--layout-margin-bottom) + 120px + var(--layout) + var(--layout)
+  );
+  margin-left: calc(
+    var(--layout-margin-left) + var(--layout-margin-left) + 70px
+  );
   border-radius: var(--radius-primary);
   height: 80px;
   padding: 12px 20px 12px 20px;
-  
+
   display: none;
-  }
-  
-  // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-  // ║ Layout                   ║ Settings (Fix)                                                                          ║
-  // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-  
-  [aria-label="CHANNEL_SETTINGS"] .standardSidebarView-E9Pc3j,
-  [aria-label="GUILD_SETTINGS"] .standardSidebarView-E9Pc3j {
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Layout                   ║ Settings (Fix)                                                                          ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+[aria-label="CHANNEL_SETTINGS"] .standardSidebarView-E9Pc3j,
+[aria-label="GUILD_SETTINGS"] .standardSidebarView-E9Pc3j {
   margin-top: var(--layout-margin-top);
-  }
-  
-  [aria-label="CHANNEL_SETTINGS"] .contentRegion-3HkfJJ,
-  [aria-label="GUILD_SETTINGS"] .contentRegion-3HkfJJ {
+}
+
+[aria-label="CHANNEL_SETTINGS"] .contentRegion-3HkfJJ,
+[aria-label="GUILD_SETTINGS"] .contentRegion-3HkfJJ {
   position: relative;
   top: 0;
   margin-top: 0px;
   margin-bottom: calc(-120px - var(--layout-margin-bottom));
   margin-right: var(--layout-margin-right);
-  }
+}

@@ -3,18 +3,18 @@
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 :root {
-// Radius
---radius-primary: 12px;
---radius-secondary: 12px;
---radius-tertiary: 6px;
---inner-primary: 8px;
---inner-secondary: 16px;
---layout-margin: 20px;
---layout-margin-top: 20px;
---layout-margin-left: 20px;
---layout-margin-right: 20px;
---layout-margin-bottom: 20px;
---layout-height-header: 44px;
+  // Radius
+  --radius-primary: 12px;
+  --radius-secondary: 12px;
+  --radius-tertiary: 6px;
+  --inner-primary: 8px;
+  --inner-secondary: 16px;
+  --layout-margin: 20px;
+  --layout-margin-top: 20px;
+  --layout-margin-left: 20px;
+  --layout-margin-right: 20px;
+  --layout-margin-bottom: 20px;
+  --layout-height-header: 44px;
 }
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
@@ -22,15 +22,15 @@
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 :root {
---layout: calc(var(--layout-margin) / 2);
---layout-icon-spacing: 8px;
---layout-width-channel: 240px;
---layout-width-members: 240px;
---layout-width-guild: 72px;
---width-profile: 320px;
+  --layout: calc(var(--layout-margin) / 2);
+  --layout-icon-spacing: 8px;
+  --layout-width-channel: 240px;
+  --layout-width-members: 240px;
+  --layout-width-guild: 72px;
+  --width-profile: 320px;
 
-// Width
---channel-width: 240px;
---members-width: 240px;
---profile-width: 320px;
-} 
+  // Width
+  --channel-width: 240px;
+  --members-width: 240px;
+  --profile-width: 320px;
+}

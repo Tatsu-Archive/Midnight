@@ -1,22 +1,22 @@
 @use "modules/alignment/left/index";
 
-@use "modules/remove/no-gift-icon"; 
+@use "modules/remove/no-gift-icon";
 
-@use "modules/remove/no-gif-icon"; 
+@use "modules/remove/no-gif-icon";
 
 @use "modules/remove/no-sticker-icon";
 
-@use "modules/remove/no-help-icon"; 
+@use "modules/remove/no-help-icon";
 
-@use "modules/addons/friends-grid"; 
+@use "modules/addons/friends-grid";
 
-@use "modules/addons/context-icons"; 
+@use "modules/addons/context-icons";
 
 @use "modules/addons/settings-icons.css";
 
 @use "modules/animations/hide-panels.scss";
 
-@use "src/source"; 
+@use "src/source";
 
 @use "modules/skins/amoled.scss";
 
@@ -35,16 +35,16 @@
   background-position: center;
   background-size: cover;
   border-radius: var(--radius-primary);
-  opacity: 1.0;
+  opacity: 1;
 }
-  
+
 // Spacing
 .container-1NXEtd[aria-label*="CreArts | Community"] .header-3OsQeK {
   height: 135px !important;
   padding-bottom: 90px;
   background: transparent;
 }
-  
+
 // Info Hide (Normal)
 .container-1NXEtd[aria-label*="CreArts | Community"] .guildIconContainer-2FW_iA,
 .container-1NXEtd[aria-label*="CreArts | Community"] .name-3Uvkvr,

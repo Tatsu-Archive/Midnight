@@ -3,13 +3,18 @@
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Spacing
-.app-3xd6d0 {margin-top: 8px;}
+.app-3xd6d0 {
+  margin-top: 8px;
+}
 
 // Background
-.chat-2ZfjoI {background: transparent;}
+.chat-2ZfjoI {
+  background: transparent;
+}
 
 .base-2jDfDU {
-  margin: var(--layout-margin-top) var(--layout-margin-right) var(--layout-margin-bottom) var(--layout-margin);
+  margin: var(--layout-margin-top) var(--layout-margin-right)
+    var(--layout-margin-bottom) var(--layout-margin);
 }
 
 // No Lines
@@ -34,7 +39,8 @@ ul.tree-3agP2X:focus {
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 .guilds-2JjMmN {
-  margin: var(--layout-margin-top) 0px var(--layout-margin-bottom) var(--layout-margin-left);
+  margin: var(--layout-margin-top) 0px var(--layout-margin-bottom)
+    var(--layout-margin-left);
   border-radius: var(--radius-primary);
 }
 
@@ -221,13 +227,13 @@ ul.tree-3agP2X:focus {
 }
 
 .scroller-kQBbkU {
-border-radius: var(--radius-primary) var(--radius-primary) 0px 0px;
+  border-radius: var(--radius-primary) var(--radius-primary) 0px 0px;
 }
 
 // Background
 .chatContent-3KubbW {
-margin: 0px 0px 0px 0px;
-border-radius: var(--radius-primary);
+  margin: 0px 0px 0px 0px;
+  border-radius: var(--radius-primary);
 }
 
 // Background (Chat)
@@ -249,7 +255,7 @@ border-radius: var(--radius-primary);
 
 // Spacing
 .container-2o3qEW {
-  margin-left: calc( var(--layout) + var(--layout));
+  margin-left: calc(var(--layout) + var(--layout));
   width: var(--members-width);
 }
 
@@ -259,7 +265,8 @@ border-radius: var(--radius-primary);
   background: transparent !important;
 }
 
-.members-3WRCEx, .members-3WRCEx>div {
+.members-3WRCEx,
+.members-3WRCEx > div {
   background-color: transparent;
 }
 
@@ -289,7 +296,9 @@ border-radius: var(--radius-primary);
 // ║ Layout                   ║ Content (Loading)                                                                       ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
-.wrapper-3HVHpV {background: transparent !important;}
+.wrapper-3HVHpV {
+  background: transparent !important;
+}
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Layout                   ║ Content (Explore)                                                                       ║
@@ -310,9 +319,13 @@ border-radius: var(--radius-primary);
   display: none;
 }
 
-.scroller-hE2gWq {border: none;}
+.scroller-hE2gWq {
+  border: none;
+}
 
-.container-1oAagU {background: transparent;}
+.container-1oAagU {
+  background: transparent;
+}
 
 // Background
 .peopleColumn-1wMU14 {
@@ -351,9 +364,15 @@ border-radius: var(--radius-primary);
 }
 
 // Spacing
-.inner-NQg18Y {margin-top: calc( var(--layout) + var(--layout));}
-.channelTextArea-1FufC0 {margin-bottom: 0px;}
-.slateTextArea-27tjG0 {right: 0;}
+.inner-NQg18Y {
+  margin-top: calc(var(--layout) + var(--layout));
+}
+.channelTextArea-1FufC0 {
+  margin-bottom: 0px;
+}
+.slateTextArea-27tjG0 {
+  right: 0;
+}
 
 .chat-2ZfjoI .form-3gdLxP {
   margin: 0px;
@@ -367,7 +386,9 @@ border-radius: var(--radius-primary);
 }
 
 // Text
-.fontSize16Padding-XoMpjI {padding: 11px;}
+.fontSize16Padding-XoMpjI {
+  padding: 11px;
+}
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Layout                   ║ Input (Reply)                                                                           ║
@@ -424,7 +445,9 @@ border-radius: var(--radius-primary);
 // ║ Layout                   ║ Input (Typing)                                                                          ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
-.chat-2ZfjoI .typing-2J1mQU {order: 1;}
+.chat-2ZfjoI .typing-2J1mQU {
+  order: 1;
+}
 
 .chat-2ZfjoI .base-3bcbY3 {
   position: relative;
@@ -435,7 +458,7 @@ border-radius: var(--radius-primary);
   right: 0px;
   padding-left: 8px;
   padding-right: 8px;
-  margin-top: calc( var(--layout) + var(--layout));
+  margin-top: calc(var(--layout) + var(--layout));
 }
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
@@ -446,7 +469,7 @@ border-radius: var(--radius-primary);
 .attachWrapper-3slhXI .lookBlank-21BCro {
   background: var(--background-secondary);
   border-radius: 90px;
-  margin-right: calc( var(--layout) + var(--layout));
+  margin-right: calc(var(--layout) + var(--layout));
 }
 
 // Spacing
@@ -482,7 +505,7 @@ border-radius: var(--radius-primary);
   order: 2 !important;
   background: var(--background-secondary);
   border-radius: var(--radius-primary);
-  margin-right: calc( var(--layout) + var(--layout));
+  margin-right: calc(var(--layout) + var(--layout));
 }
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
@@ -505,11 +528,15 @@ border-radius: var(--radius-primary);
   -webkit-mask: var(--emoji);
   mask: var(--emoji);
   height: 20px;
-  --emoji: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:serif='http://www.serif.com/' width='100%25' height='100%25' viewBox='0 0 1800 1800' version='1.1' xml:space='preserve' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;' data-minimalscrollbar='yes'%3E%3Cg transform='matrix(1,0,0,1,-179.989,-180)'%3E%3Cpath d='M1079.99,180C1576.71,180 1979.99,583.276 1979.99,1080C1979.99,1576.72 1576.71,1980 1079.99,1980C583.266,1980 179.989,1576.72 179.989,1080C179.989,583.276 583.266,180 1079.99,180ZM1571.11,1206.48C1571.11,1477.54 1351.05,1697.6 1079.99,1697.6C808.933,1697.6 588.871,1477.54 588.871,1206.48L1571.11,1206.48ZM735.94,682.104C817.11,682.104 883.01,748.004 883.01,829.174C883.01,910.344 817.11,976.243 735.94,976.243C654.77,976.243 588.871,910.344 588.871,829.174C588.871,748.004 654.77,682.104 735.94,682.104ZM1424.06,682.104C1505.23,682.104 1571.13,748.004 1571.13,829.174C1571.13,910.344 1505.23,976.243 1424.06,976.243C1342.89,976.243 1276.99,910.344 1276.99,829.174C1276.99,748.004 1342.89,682.104 1424.06,682.104Z'/%3E%3C/g%3E%3C/svg%3E") center no-repeat;
+  --emoji: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:serif='http://www.serif.com/' width='100%25' height='100%25' viewBox='0 0 1800 1800' version='1.1' xml:space='preserve' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;' data-minimalscrollbar='yes'%3E%3Cg transform='matrix(1,0,0,1,-179.989,-180)'%3E%3Cpath d='M1079.99,180C1576.71,180 1979.99,583.276 1979.99,1080C1979.99,1576.72 1576.71,1980 1079.99,1980C583.266,1980 179.989,1576.72 179.989,1080C179.989,583.276 583.266,180 1079.99,180ZM1571.11,1206.48C1571.11,1477.54 1351.05,1697.6 1079.99,1697.6C808.933,1697.6 588.871,1477.54 588.871,1206.48L1571.11,1206.48ZM735.94,682.104C817.11,682.104 883.01,748.004 883.01,829.174C883.01,910.344 817.11,976.243 735.94,976.243C654.77,976.243 588.871,910.344 588.871,829.174C588.871,748.004 654.77,682.104 735.94,682.104ZM1424.06,682.104C1505.23,682.104 1571.13,748.004 1571.13,829.174C1571.13,910.344 1505.23,976.243 1424.06,976.243C1342.89,976.243 1276.99,910.344 1276.99,829.174C1276.99,748.004 1342.89,682.104 1424.06,682.104Z'/%3E%3C/g%3E%3C/svg%3E")
+    center no-repeat;
 }
 
-.button-3BaQ4X {padding: 0px; margin: 0px; width: 44px;}
-
+.button-3BaQ4X {
+  padding: 0px;
+  margin: 0px;
+  width: 44px;
+}
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Layout                   ║ Input (Send Button)                                                                     ║
@@ -538,10 +565,10 @@ border-radius: var(--radius-primary);
 
 // Spacing
 .buttonContainer-6W2Ep3 .innerButton-1aF_E_ {
-margin: 0px;
-padding: 0px;
-width: 44px;
-height: 100%;
+  margin: 0px;
+  padding: 0px;
+  width: 44px;
+  height: 100%;
 }
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
@@ -566,5 +593,3 @@ height: 100%;
   max-height: 130px;
   background: var(--background-primary);
 }
-
-

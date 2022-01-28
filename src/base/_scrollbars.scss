@@ -3,8 +3,12 @@
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // No Scrollbar
-.scrollableContainer-15eg7h::-webkit-scrollbar {display: none;}
-.scrollableContainer-15eg7h {overflow: hidden;}
+.scrollableContainer-15eg7h::-webkit-scrollbar {
+  display: none;
+}
+.scrollableContainer-15eg7h {
+  overflow: hidden;
+}
 
 .textAreaSlate-9-y-k2 {
   overflow-y: auto;

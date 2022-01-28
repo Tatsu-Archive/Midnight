@@ -22,33 +22,33 @@
   --FG-avatar-margin-left: 20px;
   --FG-text-margin-left: 20px;
 
-  --FG-cards-banner-opacity-normal: 1.0;
-  --FG-cards-banner-opacity-hover: 1.0;
-  --FG-cards-banner-opacity-active: 1.0;
+  --FG-cards-banner-opacity-normal: 1;
+  --FG-cards-banner-opacity-hover: 1;
+  --FG-cards-banner-opacity-active: 1;
 
-  --FG-cards-avatar-opacity-normal: 1.0;
-  --FG-cards-avatar-opacity-hover: 1.0;
-  --FG-cards-avatar-opacity-active: 1.0;
+  --FG-cards-avatar-opacity-normal: 1;
+  --FG-cards-avatar-opacity-hover: 1;
+  --FG-cards-avatar-opacity-active: 1;
 
-  --FG-cards-username-opacity-normal: 1.0;
-  --FG-cards-username-opacity-hover: 1.0;
-  --FG-cards-username-opacity-active: 1.0;
+  --FG-cards-username-opacity-normal: 1;
+  --FG-cards-username-opacity-hover: 1;
+  --FG-cards-username-opacity-active: 1;
 
-  --FG-cards-discriminator-opacity-normal: 1.0;
-  --FG-cards-discriminator-opacity-hover: 1.0;
-  --FG-cards-discriminator-opacity-active: 1.0;
+  --FG-cards-discriminator-opacity-normal: 1;
+  --FG-cards-discriminator-opacity-hover: 1;
+  --FG-cards-discriminator-opacity-active: 1;
 
-  --FG-cards-status-opacity-normal: 1.0;
-  --FG-cards-status-opacity-hover: 1.0;
-  --FG-cards-status-opacity-active: 1.0;
+  --FG-cards-status-opacity-normal: 1;
+  --FG-cards-status-opacity-hover: 1;
+  --FG-cards-status-opacity-active: 1;
 
-  --FG-cards-button-opacity-normal: 0.0;
-  --FG-cards-button-opacity-hover: 1.0;
-  --FG-cards-button-opacity-active: 0.0;
+  --FG-cards-button-opacity-normal: 0;
+  --FG-cards-button-opacity-hover: 1;
+  --FG-cards-button-opacity-active: 0;
 
-  --FG-mutal-guilds-normal: 0.0;
-  --FG-mutal-guilds-hover: 1.0;
-  --FG-mutal-guilds-active: 1.0;
+  --FG-mutal-guilds-normal: 0;
+  --FG-mutal-guilds-hover: 1;
+  --FG-mutal-guilds-active: 1;
 
   --FG-avatar-shape: 50%;
 

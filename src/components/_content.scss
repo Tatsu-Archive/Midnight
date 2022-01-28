@@ -8,7 +8,7 @@
   border-radius: var(--radius-secondary);
   margin: 16px 0px 0px 16px;
   padding: 12px;
-}  
+}
 
 // Buttons (Normal)
 .container-1yy5xN .channelSettingButtons-sCQ_2T .button-1kija8 {
@@ -28,17 +28,21 @@
 }
 
 // No Icon
-.emptyChannelIcon-1YdEz2 {display: none;}
+.emptyChannelIcon-1YdEz2 {
+  display: none;
+}
 
 // No Avatar
-.container-1yy5xN .avatars-37eU13 {display: none;}
+.container-1yy5xN .avatars-37eU13 {
+  display: none;
+}
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Chat                     ║ Rules                                                                                   ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Spacing
-.container-30bdan  {
+.container-30bdan {
   flex-direction: row;
 }
 
@@ -52,12 +56,11 @@
   text-align: left;
 }
 
-
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Content                  ║ Embeds                                                                                  ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 .embedFull-1HGV2S {
   background: var(--background-secondary-alt);
-  border-radius:  4px var(--radius-secondary) var(--radius-secondary) 4px;
+  border-radius: 4px var(--radius-secondary) var(--radius-secondary) 4px;
 }
