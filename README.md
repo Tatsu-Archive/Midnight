@@ -7,6 +7,6 @@ To Download and Install the Theme for Powercord use this command:
 cd powercord/src/Powercord/themes && git clone https://github.com/ItsTatsuya/Midnight
 ```
 ### Credits
-Base theme file was taken from [**Crearts-Discord**](https://github.com/CorellanStoma/CreArts-Discord) by [CorellanStoma#1996](https://github.com/CorellanStoma)
+Base theme file was taken from [**Crearts-Discord**](https://github.com/CorellanStoma/CreArts-Discord) by [**CorellanStoma#1996**](https://github.com/CorellanStoma)
 ## License
 This project is licensed under the MIT License, see [**License**](https://raw.githubusercontent.com/ItsTatsuya/Midnight/master/License.md) for more details.
