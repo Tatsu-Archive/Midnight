@@ -112,7 +112,7 @@ ul.tree-3agP2X:focus {
   border-radius: var(--radius-primary);
 }
 .container-ZMc96U {
-  background: transparent !important;
+  background: var(--background-primary);
   margin: 0px 0px var(--layout) var(--layout);
   padding: 0px;
   width: unset;
@@ -120,13 +120,13 @@ ul.tree-3agP2X:focus {
   height: var(--layout-height-header);
 }
 .children-3xh0VB {
-  background: var(--background-secondary);
+  background-color: var(--background-primary);
   margin: 0px var(--layout) 0px 0px;
   border-radius: var(--radius-primary);
   height: 100%;
 }
 .toolbar-3_r2xA {
-  background: var(--background-secondary);
+  background: var(--background-primary);
   margin: 0px 0px 0px var(--layout);
   border-radius: var(--radius-primary);
   height: 100%;
