@@ -8,9 +8,14 @@ cd powercord/src/Powercord/themes && git clone https://github.com/ItsTatsuya/Mid
 ```
 ### Credits
 Base theme file was taken from [**Crearts-Discord**](https://github.com/CorellanStoma/CreArts-Discord) by [**CorellanStoma#1996**](https://github.com/CorellanStoma)
+
 [**Friends Grid**](https://github.com/CreArts-Community/Friends-Grid) by [**CorellanStoma#1996**](https://github.com/CorellanStoma)
+
 [**Context Icons**](https://github.com/CreArts-Community/Context-Icons) by [**CorellanStoma#1996**](https://github.com/CorellanStoma)
+
 [**Settings Icons**](https://github.com/CreArts-Community/Settings-Icons) by [**CorellanStoma#1996**](https://github.com/CorellanStoma)
+
 [**User Popout**](https://github.com/Obscure-Git/Lavender) by [**Obscure.#4719**](https://github.com/Obscure-Git)
+
 ## License
 This project is licensed under the MIT License, see [**License**](https://raw.githubusercontent.com/ItsTatsuya/Midnight/master/License.md) for more details.
