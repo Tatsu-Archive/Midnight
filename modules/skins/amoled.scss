@@ -902,3 +902,25 @@ body #app-mount .theme-light .root-g14mjS .input-m1-Y7Q {
   background-color: var(--background-mentioned);
   border-radius: var(--radius-secondary);
 }
+
+.scroller-3X7KbA .childWrapper-1j_1ub,
+.scroller-3X7KbA .circleIconButton-1VxDrg {
+    background-color: var(--background-secondary);
+}
+
+.scroller-3X7KbA .circleIconButton-1VxDrg {
+  color: white;
+  background-color: var(--background-primary);
+}
+
+.scroller-3X7KbA .circleIconButton-1VxDrg.selected-2r1Hvo {
+    color: white;
+    background-color: hsla(var(--accent-brand));
+}
+.scroller-3X7KbA .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .scroller-3X7KbA .wrapper-3kah-n:hover .childWrapper-1j_1ub {
+    background-color: var(--background-primary);
+}
+
+.hero-1aNo0v {
+  max-width: 1000px;
+}

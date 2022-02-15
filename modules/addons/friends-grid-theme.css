@@ -12,13 +12,13 @@
   --FG-search-radius: 8px;
 
   --FG-cards-radius: 8px;
-  --FG-cards-height: 170px;
+  --FG-cards-height: 150px;
   --FG-cards-banner-background: var(--brand-experiment);
-  --FG-cards-margin-bottom: 26px;
-  --FG-cards-banner-height: 10px;
+  --FG-cards-margin-bottom: 17px;
+  --FG-cards-banner-height: 0px;
   --FG-cards-border-width: 1px;
 
-  --FG-avatar-margin-top: 46px;
+  --FG-avatar-margin-top: 25px;
   --FG-avatar-margin-left: 20px;
   --FG-text-margin-left: 20px;
 
@@ -64,20 +64,20 @@
 .theme-dark {
   --FG-search-background: var(--background-tertiary);
 
-  --FG-cards-background-normal: var(--background-secondary);
-  --FG-cards-background-hover: var(--activity-card-background);
+  --FG-cards-background-normal: black;
+  --FG-cards-background-hover: black;
 
   --FG-cards-background-active: var(--activity-card-background);
 
-  --FG-cards-border-color-normal: var(--background-modifier-accent);
-  --FG-cards-border-color-hover: var(--background-modifier-accent);
+  --FG-cards-border-color-normal: black;
+  --FG-cards-border-color-hover: white;
 
   --FG-cards-username-normal: var(--header-primary);
   --FG-cards-username-hover: var(--header-primary);
   --FG-cards-discriminator-normal: var(--header-secondary);
-  --FG-cards-discriminator-hover: var(--header-secondary);
+  --FG-cards-discriminator-hover: var(--header-primary);
   --FG-cards-status-normal: var(--header-secondary);
-  --FG-cards-status-hover: var(--header-secondary);
+  --FG-cards-status-hover: var(--header-primary);
 
   --FG-cards-button-icon-normal: var(--interactive-active);
   --FG-cards-button-icon-hover: var(--activity-card-background);
