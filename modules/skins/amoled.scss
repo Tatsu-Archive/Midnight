@@ -906,17 +906,21 @@ body #app-mount .theme-light .root-g14mjS .input-m1-Y7Q {
 .scroller-3X7KbA .childWrapper-1j_1ub,
 .scroller-3X7KbA .circleIconButton-1VxDrg {
     background-color: var(--background-secondary);
+    border-radius: 50px;
 }
 
 .scroller-3X7KbA .circleIconButton-1VxDrg {
   color: white;
   background-color: rgb(255, 255, 255,0.02);
+  border-radius: 500px;
 }
 
 .scroller-3X7KbA .circleIconButton-1VxDrg.selected-2r1Hvo {
     color: white;
-    background-color: rgb(255, 255, 255,0.2);
+    background-color: rgb(255, 255, 255,0.75);
+    border-radius: 500px;
 }
 .scroller-3X7KbA .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .scroller-3X7KbA .wrapper-3kah-n:hover .childWrapper-1j_1ub {
-    background-color: rgb(255, 255, 255,0.2);
+    background-color: rgb(255, 255, 255,0.75);
+    border-radius: 50px;
 }
