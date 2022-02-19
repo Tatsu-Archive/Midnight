@@ -70,7 +70,7 @@
   right: 22px; /* so it doesn't look so close/odd */
   padding: 8px !important;
   height: auto;
-  background-color: var(--background-secondary); /* changed color to darker gray */
+  background-color: rgb(255,255,255,0.05); /* changed color to darker gray */
   /*box-shadow: var(--elevation-high); I don't like the shadow */
   border-radius: 100px;
   display: flex;
