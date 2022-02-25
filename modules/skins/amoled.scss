@@ -1,8 +1,8 @@
 :root {
   --font-primary: Quicksand;
   --font-display: Poppins;
-  --background-primary: rgb(0, 0, 0);
-  --background-secondary: rgb(8, 8, 8);
+  --background-primary: rgb(0,0,0);
+  --background-secondary: rgb(8,8,8);
   --background-secondary-alt: rgb(8, 8, 8);
   --background-tertiary: rgb(8, 8, 8);
   --background-floating: rgb(0, 0, 0);
@@ -27,7 +27,7 @@
   --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
   --background-mentioned: rgba(44, 44, 44, 0.589);
   --background-mentioned-hover: rgba(8, 8, 8, 0.2);
-  --background-message-hover: rgb(136, 136, 136);
+  --background-message-hover: rgb(75, 75, 75,0.05);
   --accent-primary: rgba(214, 214, 214, 1);
 }
 
@@ -130,10 +130,10 @@
   background-color: var(--background-primary);
 }
 #app-mount .closeButton-PCZcma {
-  border-color: var(--background-secondary-alt);
+  border-color: rgb(20,20,20);
 }
 #app-mount .closeButton-PCZcma:hover {
-  background-color: var(--background-secondary-alt);
+  background-color: rgb(255, 255, 255, 0.1);
 }
 #app-mount .keybind-13vtq8 {
   color: var(--text-normal);
@@ -928,4 +928,8 @@ body #app-mount .theme-light .root-g14mjS .input-m1-Y7Q {
 
 .userPopout-2j1gM4 .role-2TIOKu {
   background-color: rgb(20 20 20);
+}
+
+.resultsGroup-cfY57t .searchLearnMore-1gNL3A {
+  display: none;
 }
