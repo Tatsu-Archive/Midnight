@@ -13,12 +13,8 @@
   padding-left: 12px;
 }
 
-.tabs-1RhQha [aria-controls="details-tab"] {
-  margin: 0px 4px 0px 0px !important;
-}
-.tabs-1RhQha [aria-controls="members-tab"] {
-  margin: 0px 0px 0px 4px !important;
-}
+.tabs-1RhQha [aria-controls="details-tab"] {margin: 0px 4px 0px 0px !important;}
+.tabs-1RhQha [aria-controls="members-tab"] {margin: 0px 0px 0px 4px !important;}
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Members                  ║ Details                                                                                 ║
@@ -31,7 +27,7 @@
   margin-bottom: 0px;
   padding-bottom: 20px;
   padding: 12px;
-}
+} 
 
 // Section
 .container-NkLXgf .section-2PUwqg {
@@ -65,16 +61,10 @@
 }
 
 // Button (Hover)
-.container-NkLXgf .editTopicButton-jKMcn4:hover {
-  background-color: var(--brand-experiment-560);
-}
+.container-NkLXgf .editTopicButton-jKMcn4:hover {background-color: var(--brand-experiment-560);}
 
 // No Gear
-.container-NkLXgf .gearIcon-2r92xC {
-  display: none;
-}
+.container-NkLXgf .gearIcon-2r92xC {display: none;}
 
 // Link Overflow
-.container-NkLXgf .channelTopic-1hZBwz {
-  overflow: hidden;
-}
+.container-NkLXgf .channelTopic-1hZBwz {overflow: hidden;}

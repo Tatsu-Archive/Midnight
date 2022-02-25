@@ -55,10 +55,6 @@
 
 .positionLayer-1cndvf {
   position: absolute;
-  right: 0px !important;
-  bottom: 0px !important;
-  left: calc(
-    var(--layout-margin-right) + var(--layout-width-members) + var(--layout) +
-      var(--layout)
-  ) !important;
+  right: 20px !important;
+  bottom: 20px !important;
 }

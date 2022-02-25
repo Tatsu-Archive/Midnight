@@ -1,8 +1,7 @@
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Wallpaper                ║ Background                                                                              ║
+// ║ No Tooltip               ║ Base                                                                                    ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
-.bg-1QIAus {
-  background: var(--wallpaper) center/cover no-repeat, var(--background-primary);
-  filter: blur(var(--blur-wallpaper));
+.tooltip-14MtrL {
+    display: none;
 }

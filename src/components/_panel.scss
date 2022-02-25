@@ -7,8 +7,7 @@
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-rows: 1fr 1fr;
-  height: auto;
-
+  height: calc(90px + var(--inner-primary) + var(--inner-primary));
   padding: 0px;
   margin: 0px;
 }
@@ -18,10 +17,9 @@
   background: var(--background-primary);
   border-radius: var(--radius-secondary) 0px 0px var(--radius-secondary);
   margin: var(--inner-primary) 0px 0px var(--inner-primary);
-  padding: var(--inner-primary) var(--inner-primary) var(--inner-primary)
-    var(--inner-primary);
+  padding: var(--inner-primary);
   grid-column: 1;
-  height: 34px;
+  height: 32px;
 }
 
 // Name
@@ -29,10 +27,9 @@
   background: var(--background-primary);
   border-radius: 0px var(--radius-secondary) var(--radius-secondary) 0px;
   margin: var(--inner-primary) var(--inner-primary) 0px 0px;
-  padding: var(--inner-primary) var(--inner-primary) var(--inner-primary)
-    var(--inner-primary);
+  padding: var(--inner-primary);
   grid-column: 2;
-  height: 34px;
+  height: 32px;
 }
 
 // Button Area
@@ -41,18 +38,35 @@
   margin-left: var(--inner-primary);
   margin-right: var(--inner-primary);
   grid-column: 1 / -1;
-
   grid-gap: var(--inner-primary);
   grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
-
-  background: transparent;
 }
 
-// Button
+// Buttons
 .container-YkUktl .directionRow-2Iu2A9 .button-12Fmur {
   background: var(--background-primary);
   border-radius: var(--radius-secondary);
   width: 100%;
+  height: 34px;
+}
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Panel                    ║ Spotify                                                                                 ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// No Spotify Controls
+.spotify-extra-controls,
+.spotify-seek {
+  display: none !important;
+}
+
+// Spacing>
+.powercord-spotify .container-YkUktl {
+  margin-bottom: -50px !important;
+}
+
+.powercord-spotify .spotify-buttons button {
+  display: none !important;
 }
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
@@ -69,9 +83,11 @@
 
 // Background
 .container-1zzFcN {
-  margin: 12px 12px 0px 12px;
+  margin: var(--inner-primary);
   padding: 0px;
   border: none;
+
+  height: 120px;
 }
 
 // Spacing
@@ -90,9 +106,9 @@
   background: var(--background-primary);
   border-radius: var(--radius-secondary);
   width: 100%;
-  min-height: 34px;
-  padding: var(--inner-primary) 0px var(--inner-primary) 0px;
-  margin: 0px 0px 12px 0px;
+  min-height: 32px;
+  padding: var(--inner-primary) 0px;
+  margin: 0px 0px var(--inner-primary) 0px;
 }
 
 // RTC Connection Status
@@ -111,7 +127,7 @@
 .container-1zzFcN .button-12Fmur {
   background: var(--background-primary);
   border-radius: var(--radius-secondary);
-  width: 100% !important;
+  width: 100%;
 }
 
 // Disabled Buttons
@@ -122,35 +138,6 @@
   background: var(--background-tertiary);
 }
 
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Panel                    ║ Spotify                                                                                 ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-.powercord-spotify {
-  border-radius: var(--radius-secondary);
-  padding-bottom: 0px;
-  display: flex;
-  flex-direction: column;
-  height: 60px;
-}
-
-.spotify-extra-controls {
-  visibility: visible;
-  height: 100% !important;
-  opacity: 1;
-  display: none !important;
-}
-
-.spotify-seek {
-  display: none !important;
-}
-
-.powercord-spotify .directionRow-2Iu2A9 {
-  margin: 0px 12px 0px 12px;
-}
-
-.powercord-spotify .horizontal-112GEH {
-  margin-top: 0px !important;
-}
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Panel                    ║ Activity                                                                                ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
@@ -212,6 +199,14 @@
 
 .activityPanel-9icbyU .button-12Fmur {
   width: 100%;
+}
+
+.panels-3wFtMD .activityPanel-9icbyU {
+  display: none;
+}
+
+.panels-3wFtMD:hover .activityPanel-9icbyU {
+  display: block;
 }
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗

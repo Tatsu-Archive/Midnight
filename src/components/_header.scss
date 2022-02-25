@@ -1,8 +1,12 @@
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Wallpaper                ║ Background                                                                              ║
+// ║ Header                   ║                                                                                         ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+.resultsGroup-cfY57t .searchLearnMore-1gNL3A {
+  display: none;
+}
 
-.bg-1QIAus {
-  background: var(--wallpaper) center/cover no-repeat, var(--background-primary);
-  filter: blur(var(--blur-wallpaper));
+#app-mount .container-2cd8Mz .wrapper-2RrXDg:hover {
+  border-width: 1px;
+  border-color: var(--accent-color);
+  background-color: var(--background-secondary);
 }

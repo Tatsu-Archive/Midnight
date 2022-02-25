@@ -22,11 +22,7 @@
 
 // Progress Bar
 .container-1eD8xH .progressBar-1Tzim4 {
-  background: linear-gradient(
-    90deg,
-    hsl(338, calc(var(--saturation-factor, 1) * 91%), 36%),
-    hsl(338, calc(var(--saturation-factor, 1) * 92%), 42%)
-  );
+  background: linear-gradient(90deg,hsl(338,calc(var(--saturation-factor, 1)*91%),36%),hsl(338,calc(var(--saturation-factor, 1)*92%),42%));
 }
 
 // Progress Icon
@@ -41,26 +37,27 @@
   bottom: -2px;
 }
 
+
+
+/*
+.container-1eD8xH {
+margin-left: 0px !important;
+  cursor: pointer;
+}
+*/
+
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Channels                 ║ Category Icons                                                                          ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
 // Arrow (Normal)
-.containerDefault-3TQ5YN:hover .arrow-2HswgU {
-  display: block;
-}
+.containerDefault-3TQ5YN:hover .arrow-2HswgU {display: block;}
 
 // Arrow (Hover)
-.arrow-2HswgU {
-  display: none;
-}
+.arrow-2HswgU {display: none;}
 
 // Arrow (Normal)
-.addButtonIcon-3rJeaD {
-  display: none;
-}
+.addButtonIcon-3rJeaD {display: none;}
 
 // Arrow (Hover)
-.containerDefault-3TQ5YN:hover .addButtonIcon-3rJeaD {
-  display: block;
-}
+.containerDefault-3TQ5YN:hover .addButtonIcon-3rJeaD {display: block;}

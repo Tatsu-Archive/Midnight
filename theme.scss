@@ -1,104 +1,53 @@
-@use "modules/alignment/left/index";
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ 1. Alignment                   ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-@use "modules/remove/no-gift-icon";
+@use "modules/alignment/index";    //Guild Alignment
 
-@use "modules/remove/no-gif-icon";
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ 2. Remove                       ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-@use "modules/remove/no-sticker-icon";
+@use "modules/addons/remove/no-gif-icon";    //No Gif
 
-@use "modules/remove/no-help-icon";
+@use "modules/addons/remove/no-gift-icon";   //No Gift
 
-@use "modules/addons/friends-grid";
+@use "modules/addons/remove/no-nitro";   //No Nitro
 
-@use "modules/addons/context-icons";
+@use "modules/addons/remove/no-sticker-icon";     //No Sticker
 
-@use "modules/addons/settings-icons.css";
+@use "modules/addons/remove/no-help-icon";   //No Help Icon
 
-@use "modules/animations/hide-panels.scss";
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ 4. Add-ons                      ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-@use "src/source";
+@use "modules/addons/context-icons/context_root"; //Context-Icons
 
-@use "modules/skins/amoled.scss";
+@use "modules/addons/friends-grid/friends_root";  //Friends-Grid
 
-@use "modules/addons/dash2space.css";
+@use "modules/addons/settings-icons/settings_root";    //Settings-Icons
 
-.chat-2ZfjoI .form-3gdLxP {display: flex; flex-direction: column-reverse;}
-/*
-// Banner
-.container-1NXEtd[aria-label*="CreArts | Community"] .header-3OsQeK::before {
-  position: absolute;
-  content: "";
-  top: 0px;
-  left: 0px;
-  height: 100%;
-  width: 100%;
-  background-image: url("https://i.imgur.com/nOPFf0m.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  border-radius: var(--radius-primary);
-  opacity: 1;
-}
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ 5. Custom Addons        ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-// Spacing
-.container-1NXEtd[aria-label*="CreArts | Community"] .header-3OsQeK {
-  height: 135px !important;
-  padding-bottom: 90px;
-  background: transparent;
-}
+@use "modules/addons/discolored";  //Discolored SVG
 
-// Info Hide (Normal)
-.container-1NXEtd[aria-label*="CreArts | Community"] .guildIconContainer-2FW_iA,
-.container-1NXEtd[aria-label*="CreArts | Community"] .name-3Uvkvr,
-.container-1NXEtd[aria-label*="CreArts | Community"] .button-2BMPJJ {
-  z-index: 2;
-  transition: none;
-}
-*/
+@use "modules/plugins/powercord"; //Powercord Badge
 
-/**
-*Jump to Present(Modern)
-*/
-[class*="jumpToPresentBar"] {
-  display: contents;
-}
-[class*="jumpToPresentBar"] > button:first-child {
-  display: none;
-}
-[class*="jumpToPresentBar"] > button:last-child {
-  position: absolute;
-  bottom: 24px; /* fixed the position relative to right part */
-  right: 22px; /* so it doesn't look so close/odd */
-  padding: 8px !important;
-  height: auto;
-  background-color: rgb(255,255,255,0.05); /* changed color to darker gray */
-  /*box-shadow: var(--elevation-high); I don't like the shadow */
-  border-radius: 100px;
-  display: flex;
-  font-size: 0;
-  color: transparent;
-  transition: font-size .2s .1s, color .2s, padding .4s .1s;
-}
-[class*="jumpToPresentBar"] > button svg {
-  order: -1;
-  margin: 0;
-  height: 24px;
-  width: 24px;
-  top: unset;
-  margin-right: 4px;
-  margin-left: 0;
-  margin-right: 0;
-  color: var(--text-normal);
-  transition: margin .6s;
-}
+@use "modules/addons/dash2space";   //Dash2Space
 
-[class*="jumpToPresentBar"]:hover > button {
-  padding: 8px 18px !important;
-  font-size: 14px;
-  color: var(--text-normal);
-  transition: font-size .2s, color .2s .1s, padding .4s;
-}
-[class*="jumpToPresentBar"]:hover > button svg {
-  margin-right: 2px;
-  margin-left: -6px;
-}
+@use "modules/addons/jump-to-present";  //Jump To Present Button
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ 6. SRC                                ║ Do not comment out these lines! By disabling the theme can not work correctly. ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+@use "src/source";  //Source File
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ 7. Skins                              ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+@use "src/skins/amoled";

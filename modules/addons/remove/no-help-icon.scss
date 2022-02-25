@@ -1,8 +1,7 @@
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Wallpaper                ║ Background                                                                              ║
+// ║ No Help Icon             ║ Base                                                                                    ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
-.bg-1QIAus {
-  background: var(--wallpaper) center/cover no-repeat, var(--background-primary);
-  filter: blur(var(--blur-wallpaper));
+.anchor-1MIwyf[href="https://support.discord.com"] {
+    display: none !important;
 }
