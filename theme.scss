@@ -22,11 +22,11 @@
 /* ║ 4. Add-ons                      ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-@use "modules/addons/context-icons/context_root"; //Context-Icons
+@use "modules/addons/context-icons/context_index"; //Context-Icons
 
-@use "modules/addons/friends-grid/friends_root";  //Friends-Grid
+@use "modules/addons/friends-grid/friends_index";  //Friends-Grid
 
-@use "modules/addons/settings-icons/settings_root";    //Settings-Icons
+@use "modules/addons/settings-icons/settings_index";    //Settings-Icons
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ 5. Custom Addons        ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
@@ -40,6 +40,7 @@
 
 @use "modules/addons/jump-to-present";  //Jump To Present Button
 
+@use "modules/addons/folder-icons"; //Folder Icons
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ 6. SRC                                ║ Do not comment out these lines! By disabling the theme can not work correctly. ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */

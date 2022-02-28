@@ -214,17 +214,19 @@ ul.tree-3agP2X:focus {
   height: 40px;
   height: var(--layout-height-header);
 }
-
+:root{
+  --background-primary:rgb(0,0,0);
+}
 // Background
 .children-3xh0VB {
-  background: var(--background-secondary);
+  background: var(--background-primary);
   margin: 0px calc(var(--layout-margin) / 2) 0px 0px;
   border-radius: var(--radius-primary);
   height: 100%;
 }
 
 .toolbar-3_r2xA {
-  background: var(--background-secondary);
+  background: var(--background-primary);
   margin: 0px 0px 0px calc(var(--layout-margin) / 2);
   border-radius: var(--radius-primary);
   height: 100%;
