@@ -7,7 +7,7 @@
   margin-top: 0px;
   padding-top: 0px;
   padding-bottom: 4px;
-  margin-bottom: -8px;
+  margin-bottom: -25px;
   padding-bottom: 8px;
 }
 
@@ -15,26 +15,10 @@
 // ║ Titlebar                 ║ Wordmark                                                                                ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 // Remove Wordmark
-
 .wordmark-2u86JB svg {
   display: none;
 }
-/*
-.wordmarkWindows-2dq6rw::after {
-  -webkit-mask: var(--logo);
-  mask: var(--logo);
-  background: var(--header-secondary);
-  background-size: cover;
-  height: 80px;
-  position: absolute;
-  content: "";
-  width: 80px;
-  top: -25px;
-  left: 15px;
-  --logo: url("data:image/svg+xml,%3Csvg id='e5g9mLYa3bo1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 120 120' shape-rendering='geometricPrecision' text-rendering='geometricPrecision'%3E%3Ctext dx='0' dy='0' font-family='&quot;e5g9mLYa3bo1:::Poppins&quot;' font-size='19' font-weight='600' transform='translate(2.588196 66.645026)' fill='%23fffefe' stroke-width='0'%3E%3Ctspan y='0' font-weight='600' stroke-width='0'%3E%3C!%5BCDATA%5BMidnight V2%5D%5D%3E%3C/tspan%3E%3C/text%3E%3Cstyle%3E%3C!%5BCDATA%5B@font-face %7Bfont-family: 'e5g9mLYa3bo1:::Poppins';font-style: normal;font-weight: 600;src: url(data:font/ttf;charset=utf-8;base64,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) format('truetype');%7D%5D%5D%3E%3C/style%3E%3C/svg%3E")
-    center no-repeat;
-}
-*/
+
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Icons                    ║                                                                                         ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
@@ -69,6 +53,7 @@
   width: 42px;
   color: var(--header-secondary);
 }
+
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Titlebar                 ║ Buttons (Minimize)                                                                      ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝

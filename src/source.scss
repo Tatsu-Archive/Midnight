@@ -2,9 +2,7 @@
 @forward "base/layout";
 @forward "base/notice";
 @forward "base/scrollbars";
-//@forward "base/testing";
 @forward "base/titlebar";
-@forward "base/tooltip";
 @forward "base/variables";
 @forward "base/wallpaper";
 
@@ -12,12 +10,9 @@
 @forward "components/channels";
 @forward "components/content";
 @forward "components/header";
-@forward "components/input";
 @forward "components/members";
 @forward "components/panel";
 @forward "components/guild";
-
-// Modals
 
 // Pages
 @forward "pages/boost";
