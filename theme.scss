@@ -41,6 +41,7 @@
 @use "modules/addons/jump-to-present";  //Jump To Present Button
 
 @use "modules/addons/folder-icons"; //Folder Icons
+
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ 6. SRC                                ║ Do not comment out these lines! By disabling the theme can not work correctly. ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
@@ -52,3 +53,10 @@
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
 @use "src/skins/amoled"; //Theme File
+
+body{
+     background-color: transparent !important;
+}
+#app-mount{
+     border-radius: 16px !important; 
+}
