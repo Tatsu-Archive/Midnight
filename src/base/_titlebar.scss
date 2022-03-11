@@ -107,3 +107,9 @@ display: none;
   mask: var(--icon-windows-close);
   background: var(--header-secondary);
 }
+
+.winButtonClose-3Q8ZH5:hover,
+.winButtonMinMax-3RsPUg:nth-child(3):hover,
+.winButtonMinMax-3RsPUg:nth-child(4):hover{
+  background:rgba(255,255,255,.1);
+}
