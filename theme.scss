@@ -2,21 +2,21 @@
 /* ║ 1. Alignment                   ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-@use "modules/alignment/index";    //Guild Alignment
+@use "modules/alignment/index"; //Guild Alignment
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ 2. Remove                       ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-@use "modules/addons/remove/no-gif-icon";    //No Gif
+@use "modules/addons/remove/no-gif-icon"; //No Gif
 
-@use "modules/addons/remove/no-gift-icon";   //No Gift
+@use "modules/addons/remove/no-gift-icon"; //No Gift
 
-@use "modules/addons/remove/no-nitro";   //No Nitro
+@use "modules/addons/remove/no-nitro"; //No Nitro
 
-@use "modules/addons/remove/no-sticker-icon";     //No Sticker
+@use "modules/addons/remove/no-sticker-icon"; //No Sticker
 
-@use "modules/addons/remove/no-help-icon";   //No Help Icon
+@use "modules/addons/remove/no-help-icon"; //No Help Icon
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ 4. Add-ons                      ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
@@ -24,21 +24,21 @@
 
 @use "modules/addons/context-icons/context_index"; //Context-Icons
 
-@use "modules/addons/friends-grid/friends_index";  //Friends-Grid
+@use "modules/addons/friends-grid/friends_index"; //Friends-Grid
 
-@use "modules/addons/settings-icons/settings_index";    //Settings-Icons
+@use "modules/addons/settings-icons/settings_index"; //Settings-Icons
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ 5. Custom Addons        ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-@use "modules/addons/discolored";  //Discolored SVG
+@use "modules/addons/discolored"; //Discolored SVG
 
 @use "modules/plugins/powercord"; //Powercord Badge
 
-@use "modules/addons/dash2space";   //Dash2Space
+@use "modules/addons/dash2space"; //Dash2Space
 
-@use "modules/addons/jump-to-present";  //Jump To Present Button
+@use "modules/addons/jump-to-present"; //Jump To Present Button
 
 //@use "modules/addons/folder-icons"; //Folder Icons
 
@@ -46,12 +46,12 @@
 
 @use "modules/addons/DarknessCodeBlocks"; //Code Blocks
 
+@use "modules/addons/plugin-cards.scss";
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ 6. SRC                                ║ Do not comment out these lines! By disabling the theme can not work correctly. ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
-
-@use "src/source";  //Source File
+@use "src/source"; //Source File
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ 7. Skins                              ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
@@ -63,5 +63,5 @@
 //      background-color: transparent !important;
 // }
 // #app-mount{
-//      border-radius: 16px !important; 
+//      border-radius: 16px !important;
 // }
