@@ -1,8 +1,8 @@
 {
     "name": "Midnight",
-    "version": "2.0b",
+    "version": "3.0a",
     "author": "Tatsuya#8026",
-    "description": "Lights Out.",
+    "description": "zzz",
     "license": "MIT",
-    "theme": "theme.scss"
+    "theme": "theme.css"
 }

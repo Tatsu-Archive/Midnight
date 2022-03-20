@@ -1,67 +1,64 @@
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ 1. Alignment                   ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
-
-@use "modules/alignment/index"; //Guild Alignment
-
+@import url("https://itstatsuya.github.io/Midnight/modules/alignment/index.css");
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ 2. Remove                       ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+/* No Gift Button Icon */
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/no-gift-icon.css");
 
-@use "modules/addons/remove/no-gif-icon"; //No Gif
+/* No GIF Button Icon */
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/no-gif-icon.css");
 
-@use "modules/addons/remove/no-gift-icon"; //No Gift
+/* No Sticker Icon */
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/no-sticker-icon.css");
 
-@use "modules/addons/remove/no-nitro"; //No Nitro
+/* No Sticker Icon */
+@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/no-help-icon.css");
 
-@use "modules/addons/remove/no-sticker-icon"; //No Sticker
+/* No Emoji Icon */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/no-emoji-icon.css");
 
-@use "modules/addons/remove/no-help-icon"; //No Help Icon
+/* No Stream popout */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/no-stream.css");
 
+/* No Tooltip */
+/*@import url("https://crearts-community.github.io/CreArts-Discord/modules/remove/no-tooltip.css");
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ 4. Add-ons                      ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+/* 🔻Friends-Grid */
+@import url("https://crearts-community.github.io/Friends-Grid/clients/powercord.css");
 
-@use "modules/addons/context-icons/context_index"; //Context-Icons
+/* 🔻Context-Icons */
+@import url("https://crearts-community.github.io/Context-Icons/clients/powercord.css"); 
 
-@use "modules/addons/friends-grid/friends_index"; //Friends-Grid
+/* 🔻Settings-Icons */
+@import url("https://crearts-community.github.io/Settings-Icons/clients/powercord.css");
 
-@use "modules/addons/settings-icons/settings_index"; //Settings-Icons
+/* 🔻Mention-Links */
+@import url("https://crearts-community.github.io/Mention-Links/src/source.css");
 
+/* 🔻Custom Icons */
+@import url("https://itstatsuya.github.io/Midnight/modules/addons/icons.css");
+
+/* 🔻Jump to present */
+@import url("https://itstatsuya.github.io/Midnight/modules/addons/jump-to-present.css");
+
+/* 🔻Plugin Cards */
+@import url("https://itstatsuya.github.io/Midnight/modules/addons/plugin-cards.css");
+
+/* 🔻Porkcord Icon */
+@import url("https://itstatsuya.github.io/Midnight/modules/plugins/powercord.css");
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ 5. Custom Addons        ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
+/* ║ 5. SRC                                ║ Do not comment out these lines! By disabling the theme can not work correctly. ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
-
-@use "modules/addons/discolored"; //Discolored SVG
-
-@use "modules/plugins/powercord"; //Powercord Badge
-
-@use "modules/addons/dash2space"; //Dash2Space
-
-@use "modules/addons/jump-to-present"; //Jump To Present Button
-
-//@use "modules/addons/folder-icons"; //Folder Icons
-
-@use "modules/addons/icons"; //Folder Icons V2
-
-@use "modules/addons/DarknessCodeBlocks"; //Code Blocks
-
-@use "modules/addons/plugin-cards.scss";
-
+@import url("https://crearts-community.github.io/CreArts-Discord/src/source.css"); /* Source Files */
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ 6. SRC                                ║ Do not comment out these lines! By disabling the theme can not work correctly. ║ */
+/* ║ 6. Skins                              ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
-@use "src/source"; //Source File
-
+@import url("https://itstatsuya.github.io/Midnight/skins/amoled.css");
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ 7. Skins                              ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
+/* ║ 6. Custom CSS       ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
-
-@use "src/skins/amoled"; //Theme File
-
-// body{
-//      background-color: transparent !important;
-// }
-// #app-mount{
-//      border-radius: 16px !important;
-// }
