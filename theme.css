@@ -29,7 +29,7 @@
 /* ║ 4. Add-ons                      ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 /* 🔻Friends-Grid */
-@import url("https://crearts-community.github.io/Friends-Grid/clients/powercord.css");
+@import url("https://itstatsuya.github.io/Midnight/modules/addons/friends-grid/friends_index.css");
 
 /* 🔻Context-Icons */
 @import url("https://crearts-community.github.io/Context-Icons/clients/powercord.css"); 
@@ -51,10 +51,13 @@
 
 /* 🔻Porkcord Icon */
 @import url("https://itstatsuya.github.io/Midnight/modules/plugins/powercord.css");
+
+/* 🔻Dash 2 Space */
+@import url("https://itstatsuya.github.io/Midnight/modules/addons/dash2space.css");
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ 5. SRC                                ║ Do not comment out these lines! By disabling the theme can not work correctly. ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
-@import url("https://crearts-community.github.io/CreArts-Discord/src/source.css"); /* Source Files */
+@import url("https://itstatsuya.github.io/Midnight/src/source.css");/* Source Files */
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ 6. Skins                              ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
