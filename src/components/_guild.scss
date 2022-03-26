@@ -1,0 +1,21 @@
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Guild                    ║ Base                                                                                    ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+.guilds-2JjMmN .circleIcon-3489FI {
+    color: var(--interactive-normal) !important;
+}
+
+.circleIconButton-1VxDrg.selected-2r1Hvo .circleIcon-3489FI {
+    color: var(--interactive-active) !important;
+    border-radius: 50px;
+}
+
+.circleIconButton-1VxDrg.selected-2r1Hvo {
+    background: var(--brand-experiment);
+    border-radius: 50px;
+}
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
+.wrapper-3kah-n:hover .childWrapper-1j_1ub{
+     border-radius: 50px;
+ }

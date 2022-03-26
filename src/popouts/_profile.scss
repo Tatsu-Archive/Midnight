@@ -1,0 +1,108 @@
+:root{
+     --profile-radius:8px;
+}
+
+.userPopout-2j1gM4 .profileBadges-2pItdR {
+  top: 7px;
+  right: 10px;
+  max-width: 110px;
+}
+.userPopout-2j1gM4 .headerText-1-WmDq {
+  margin: -5px 0 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.customStatus-3XAoF9 {
+  padding: 10px;
+  border-radius: var(--profile-radius);
+  background: var(--background-secondary);
+}
+.customStatus-3XAoF9 > .customStatusEmoji-1bFQdD.customStatusSoloEmoji-2bSRlG:only-child {
+  margin-right: auto;
+  margin-left: auto;
+}
+.userPopout-2j1gM4 .aboutMeSection-PUghFQ .aboutMeBody-1J8rhz {
+  font-size: 14px;
+  line-height: 18px;
+  padding: 10px;
+  border-radius: var(--profile-radius);
+  background: var(--background-tertiary);
+  overflow: hidden scroll;
+}
+.userPopout-2j1gM4 .aboutMeSection-PUghFQ .aboutMeBody-1J8rhz::-webkit-scrollbar {
+  width: 0.25em !important;
+  border-radius: var(--profile-radius);
+  height: 0px !important;
+  background: transparent !important;
+}
+.userPopout-2j1gM4 .aboutMeSection-PUghFQ .aboutMeBody-1J8rhz::-webkit-scrollbar-thumb {
+  background: var(--background-secondary-alt);
+  border-radius: var(--profile-radius);
+}
+.userPopout-2j1gM4 .aboutMeSection-PUghFQ {
+  margin-top: 20px;
+}
+.userPopout-2j1gM4 .aboutMeSection-PUghFQ::before {
+  content: " ";
+  position: absolute;
+  left: 16px;
+  width: 92%;
+  height: 1px;
+  margin-top: -12px;
+  background-color: var(--background-modifier-accent);
+}
+.userPopout-2j1gM4 .aboutMeTitle-3pjiS7,
+.userPopout-2j1gM4 .bodyTitle-2Az3VQ {
+  display: flex;
+  font-weight: 700;
+  margin: 0 0 8px 6px;
+}
+.userPopout-2j1gM4 .bodyTitle-2Az3VQ {
+  margin-top: 28px;
+}
+.userPopout-2j1gM4 .bodyTitle-2Az3VQ::before {
+  content: " ";
+  position: absolute;
+  left: 16px;
+  width: 92%;
+  height: 1px;
+  margin-top: -15px;
+  background-color: var(--background-modifier-accent);
+}
+.userPopout-2j1gM4 .note-Go5ZP2 {
+  background: var(--background-tertiary);
+  padding: 10px;
+  margin: 3px;
+  border-radius: var(--profile-radius);
+}
+.userPopout-2j1gM4 .input-2z42oC {
+  background: var(--background-secondary);
+  border-radius: var(--profile-radius);
+}
+.userPopout-2j1gM4 .rolesList-3uZoaa {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--background-tertiary);
+  padding: 10px;
+  border-radius: var(--profile-radius);
+}
+.rolesList-3uZoaa .role-2TIOKu {
+  font-size: 12px;
+  font-weight: 500;
+  background: var(--background-secondary-alt);
+  border-radius: 8px;
+  box-sizing: border-box;
+  height: 26px;
+  margin: 0 6px 7px 0;
+  padding: 6px;
+}
+.rolesList-3uZoaa .role-2TIOKu .roleCircle-1EgnFN {
+  border-radius: 40%;
+  width: 12px;
+  height: 12px;
+  padding: 0;
+  margin: 0 7px 0 2px;
+}
