@@ -1,0 +1,158 @@
+.container-1NXEtd[aria-label*=Tatsuya-Archive] {
+	margin-bottom: 0px
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] .content-2a4AW9 {
+	max-width: var(--channel-width);
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-gap: 6px;
+	margin: 6px;
+	margin-bottom: 20px
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] [style*="height: 16px;"] {
+	display: none !important
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] [style*="height: 0px;"] {
+	display: none !important
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] .scroller-1ox3I2::-webkit-scrollbar {
+	display: none
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] .children-1MGS9G,
+.container-1NXEtd[aria-label*=Tatsuya-Archive] .iconContainer-21RCa3 {
+	display: none
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] .wrapper-NhbLHG {
+	height: 60px;
+	width: 100%
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] .content-1gYQeQ {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	background-color: var(--background-primary);
+	margin: 4px;
+	border-radius: var(--radius-secondary);
+	background-position: center;
+	background-size: 100% auto !important
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name=chat] {
+	grid-column: 1/-1 !important
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name=chat] .content-1gYQeQ {
+	background-image: url("https://i.imgur.com/BZgKnuo.png")
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name=inspiration] {
+	grid-column: 1/-1 !important
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name=palettes] .content-1gYQeQ {
+	background-image: url("https://i.imgur.com/aHoc4cm.png")
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name=portfolio] .content-1gYQeQ {
+	background-image: url("https://i.imgur.com/K9I3v8h.png")
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name=projects] .content-1gYQeQ {
+	background-image: url("https://i.imgur.com/1I93QS0.png")
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name=anime] .content-1gYQeQ {
+	background-image: url("https://i.imgur.com/AFAEcNM.png")
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name=manga] .content-1gYQeQ {
+	background-image: url("https://i.imgur.com/g2y1RBH.png")
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name=tv-series] .content-1gYQeQ {
+	background-image: url("https://i.imgur.com/kez5TfI.png")
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name=comic] .content-1gYQeQ {
+	background-image: url("https://i.imgur.com/rDpRf3G.png")
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name=movies] .content-1gYQeQ {
+	background-image: url("https://i.imgur.com/1YQpuCM.png")
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name=books] .content-1gYQeQ {
+	background-image: url("https://i.imgur.com/BCPBYoc.png")
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name=recipes] .content-1gYQeQ {
+	background-image: url("https://i.imgur.com/Sda6lb4.png")
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name=notes] .content-1gYQeQ {
+	background-image: url("https://i.imgur.com/4ieRtBt.png")
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name=games] .content-1gYQeQ {
+	background-image: url("https://i.imgur.com/Wcpcjym.png")
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name=music] .content-1gYQeQ {
+	background-image: url("https://i.imgur.com/r4ebl1E.png")
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name=guides] .content-1gYQeQ {
+	background-image: url("https://i.imgur.com/HHhZawS.png")
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name=inspiration] .content-1gYQeQ {
+	background-image: url("https://i.imgur.com/8WWhWTM.png")
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name=knowledge] .content-1gYQeQ {
+	background-image: url("https://i.imgur.com/kuRfFoq.png")
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name=resources] .content-1gYQeQ {
+	background-image: url("https://i.imgur.com/nsdtBso.png")
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name=tools] .content-1gYQeQ {
+	background-image: url("https://i.imgur.com/jd9nohK.png")
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name="3d-prints"] .content-1gYQeQ {
+	background-image: url("https://i.imgur.com/JVRXNRQ.png")
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] .content-1gYQeQ::before {
+	content: "";
+	position: absolute;
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+	border-radius: var(--radius-secondary);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] .containerDefault-3TQ5YN {
+	grid-column: 1/-1 !important
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive] [data-list-item-id=channels___home-tab-958458301463527454] .name-28HaxV,
+.container-1NXEtd[aria-label*=Tatsuya-Archive] .channelName-3KPsGw {
+	text-align: center;
+	color: #fff
+}
+
+.container-1NXEtd[aria-label*=Tatsuya-Archive]+.panels-3wFtMD {
+	display: none !important
+}
