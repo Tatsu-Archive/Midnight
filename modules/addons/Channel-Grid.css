@@ -56,14 +56,6 @@
 	grid-column: 1/-1 !important
 }
 
-.container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name=palettes] .content-1gYQeQ {
-	background-image: url("https://i.imgur.com/aHoc4cm.png")
-}
-
-.container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name=portfolio] .content-1gYQeQ {
-	background-image: url("https://i.imgur.com/K9I3v8h.png")
-}
-
 .container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name=projects] .content-1gYQeQ {
 	background-image: url("https://i.imgur.com/1I93QS0.png")
 }
@@ -80,20 +72,8 @@
 	background-image: url("https://i.imgur.com/kez5TfI.png")
 }
 
-.container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name=comic] .content-1gYQeQ {
-	background-image: url("https://i.imgur.com/rDpRf3G.png")
-}
-
 .container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name=movies] .content-1gYQeQ {
 	background-image: url("https://i.imgur.com/1YQpuCM.png")
-}
-
-.container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name=books] .content-1gYQeQ {
-	background-image: url("https://i.imgur.com/BCPBYoc.png")
-}
-
-.container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name=recipes] .content-1gYQeQ {
-	background-image: url("https://i.imgur.com/Sda6lb4.png")
 }
 
 .container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name=notes] .content-1gYQeQ {
@@ -128,8 +108,8 @@
 	background-image: url("https://i.imgur.com/jd9nohK.png")
 }
 
-.container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name="3d-prints"] .content-1gYQeQ {
-	background-image: url("https://i.imgur.com/JVRXNRQ.png")
+.container-1NXEtd[aria-label*=Tatsuya-Archive] [data-dnd-name=coding] .content-1gYQeQ {
+	background-image: url("https://i.imgur.com/7SArllD.png")
 }
 
 .container-1NXEtd[aria-label*=Tatsuya-Archive] .content-1gYQeQ::before {
