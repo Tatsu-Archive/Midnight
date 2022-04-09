@@ -19,6 +19,9 @@
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ Add-ons               ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+@forward "modules/addons/Inline-Image";
+
 @forward "modules/addons/Channel-Grid";
 
 @forward "modules/addons/context-icons";
