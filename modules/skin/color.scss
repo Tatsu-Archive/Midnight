@@ -137,4 +137,7 @@
   --brand-experiment-85a: hsla(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%, 0.85);
   --brand-experiment-90a: hsla(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%, 0.9);
   --brand-experiment-95a: hsla(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%, 0.95);
+
+  /*Button*/
+  --button-outline-danger-border: rgb(255,255,255);
 }
