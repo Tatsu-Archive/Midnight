@@ -11,8 +11,8 @@
 
 :root {
   /* Info */
-  --SKIN-skin: "Charcoal Edition";
-  --SKIN-author: "CorellanStoma";
+  --SKIN-skin: "Midnight";
+  --SKIN-author: "Tatsuya";
   
   /* Wallpaper */
   --SKIN-wallpaper: url("");
@@ -25,7 +25,7 @@
 
 .theme-dark {
 /* Lightness */
---SKIN-lightness: 0%;
+--SKIN-lightness: 100%;
 
 /* Grading */
 --SKIN-grading-0: 0%;
