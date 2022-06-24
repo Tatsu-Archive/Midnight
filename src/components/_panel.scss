@@ -1,4 +1,8 @@
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Panel                    ║ Layout                                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Panel                    ║ Hover Function                                                                          ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
@@ -14,10 +18,30 @@
 
 // Spotify (Hover)
 .powercord-spotify:hover .container-YkUktl {
-  height: calc(50px + var(--inner-primary) + var(--inner-primary)) !important;
+  height: calc(90px + var(--inner-primary) + var(--inner-primary)) !important;
 }
 
 .powercord-spotify:hover .container-YkUktl .flex-2S1XBF {
+  opacity: 0.4;
+  z-index: 0;
+}
+
+// Activity (Normal)
+.activityPanel-9icbyU .body-1FrnJD {
+  height: calc(32px + var(--inner-primary) + var(--inner-primary)) !important;
+}
+
+.activityPanel-9icbyU .actions-zk2vB_ {
+  opacity: 0;
+  z-index: -99;
+}
+
+// Activity (Hover)
+.activityPanel-9icbyU:hover .body-1FrnJD {
+  height: calc(72px + var(--inner-primary) + var(--inner-primary)) !important;
+}
+
+.activityPanel-9icbyU:hover .actions-zk2vB_ {
   opacity: 1;
   z-index: 0;
 }
@@ -39,8 +63,8 @@
 // Avatar
 .container-YkUktl .avatarWrapper-1B9FTW {
   background: var(--background-primary);
-  border-radius: var(--radius-secondary) 0px 0px var(--radius-secondary);
-  margin: var(--inner-primary) 0px 0px var(--inner-primary);
+  border-radius: var(--radius-secondary);
+  margin: var(--inner-primary) var(--inner-primary) 0px var(--inner-primary);
   padding: var(--inner-primary);
   grid-column: 1;
   height: 32px;
@@ -49,7 +73,7 @@
 // Name
 .container-YkUktl .nameTag-sc-gpq {
   background: var(--background-primary);
-  border-radius: 0px var(--radius-secondary) var(--radius-secondary) 0px;
+  border-radius: var(--radius-secondary);
   margin: var(--inner-primary) var(--inner-primary) 0px 0px;
   padding: var(--inner-primary);
   grid-column: 2;
@@ -84,7 +108,7 @@
   display: none !important;
 }
 
-// Spacing>
+// Spacing
 .powercord-spotify .container-YkUktl {
   margin-bottom: -8px !important;
 }
@@ -113,9 +137,8 @@
 .container-1zzFcN {
   margin: var(--inner-primary);
   padding: 0px;
-  border: none;
-
-  height: 120px;
+  border: none !important;
+  //height: 120px;
 }
 
 // Spacing
@@ -167,140 +190,6 @@
 }
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Panel                    ║ Spotify                                                                                 ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-/*
-  // Spacing
-  .powercord-spotify {
-    border-radius: var(--radius-secondary);
-    padding-bottom: 0px;
-    display: flex;
-    flex-direction: column;
-    height: 400px;
-  }
-  
-  
-  
-  // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-  // ║ Panel                    ║ Spotify (Seek)                                                                          ║
-  // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-  
-  .spotify-seek {
-    margin-top: 0px !important;
-    margin-left: var(--inner-primary) !important;
-    margin-right: var(--inner-primary) !important;
-  
-  
-    display: none;
-  }
-  
-  .powercord-spotify .spotify-seek-elements,
-  .powercord-spotify.hover .spotify-seek-elements {
-    margin-left: 20px !important;
-    margin-right: 20px !important;
-    margin-top: 20px !important;
-    margin-bottom: 20px !important;
-    height: 0px;
-  }
-  
-  // Bar
-  .powercord-spotify .spotify-seek-bar {
-    background: var(--background-tertiary) !important;
-    height: 4px !important;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-radius: var(--radius-primary);
-    margin-top: -2px;
-    margin-bottom: 12px;
-  }
-  
-  // Progress Bar
-  .powercord-spotify .spotify-seek-bar-progress {
-    border-radius: var(--radius-primary) !important;
-    background: var(--brand-experiment) !important;
-  }
-  
-  // Cursor
-  .powercord-spotify .spotify-seek-bar-cursor {
-    background: var(--interactive-normal) !important;
-    width: 6px !important;
-    height: 6px !important;
-  }
-  
-  // Controls
-  .powercord-spotify .directionRow-2Iu2A9 {
-    margin: 0px var(--inner-primary) 0px var(--inner-primary);
-  }
-  
-  .powercord-spotify .horizontal-112GEH {
-    margin-top: 0px !important;
-  }
-  
-  .fas, .fa-backward, .fa-fw, .fa-heart, .fa-sync, .fa-undo {
-    color: var(--interactive-normal);
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  // Duration
-  .powercord-spotify .spotify-seek-duration {
-    font-size: 14px;
-  }
-  
-  .powercord-spotify.hover .spotify-extra-controls,
-  .powercord-spotify .spotify-extra-controls {
-    width: 100% !important;
-    opacity: 1 !important;
-  
-    height: 62px !important;
-  }
-  
-  
-  
-  
-  // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-  // ║ Panel                    ║ Spotify (Extra Controls)                                                                ║
-  // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-  
-  .powercord-spotify .spotify-extra-controls {
-    grid-column: 1/-1;
-    grid-gap: 8px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
-  
-  
-    margin-top: 0px !important;
-  
-  }
-  
-  .powercord-spotify .spotify-extra-controls .button-12Fmur {
-    background: var(--background-primary);
-    border-radius: var(--radius-secondary);
-    width: 100%;
-  }
-  
-  // Hide Last Button
-  .powercord-spotify .spotify-extra-controls .button-12Fmur:last-child {
-    display: none;
-  }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  */
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Panel                    ║ Activity                                                                                ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
@@ -321,7 +210,7 @@
 
 .body-1FrnJD {
   flex-direction: column;
-  margin: 12px 12px 0px 12px;
+  margin: var(--inner-primary) var(--inner-primary) 0px var(--inner-primary);
 }
 
 .activityPanel-9icbyU {
@@ -333,7 +222,7 @@
 .activityPanel-9icbyU .gameWrapper-2TFy7F {
   background: var(--background-primary);
   border-radius: var(--radius-secondary);
-  margin: 0px 0px 12px 0px;
+  margin: 0px 0px var(--inner-primary) 0px;
   padding: var(--inner-primary) 0px var(--inner-primary) 0px;
   width: 100%;
 }
@@ -375,107 +264,20 @@
 
 // Voice
 .wrapper-3Hk9OB {
-  order: 1;
+  order: 2;
 }
 
 // Activity
 .activityPanel-9icbyU {
-  order: 2;
+  order: 3;
 }
 
 // Spotify
 .powercord-spotify {
-  order: 3;
+  order: 4;
 }
 
 // Profile
 .container-YkUktl {
-  order: 4;
+  order: 5;
 }
-
-/*
-  
-  
-  // Spacing
-  .container-1zzFcN .horizontal-112GEH>.flex-2S1XBF, .horizontal-112GEH > .flexChild-3PzYmX {margin-left: 0px;}
-  
-  // Flex
-  .container-1zzFcN .connection-3k9QeF {
-    flex-direction: column;
-  }
-  
-  // Info
-  .container-1zzFcN .inner-llGtyq {
-    background: var(--background-primary);
-    border-radius: var(--radius-secondary);
-    width: 100%;
-    min-height: 34px;
-    padding: var(--inner-primary) 0px var(--inner-primary) 0px;
-    margin: 0px 0px 12px 0px;
-  }
-  
-  // RTC Connection Status
-  .container-1zzFcN .rtcConnectionStatus-c5A6Av {
-    padding-bottom: 4px;
-    margin-left: 8px;
-  }
-  
-  // Subtext
-  .container-1zzFcN .subtext-2HDqJ7 {
-  margin-left: 8px;
-  }
-  
-  // Buttons
-  .container-1zzFcN .button-f2h6uQ,
-  .container-1zzFcN .button-12Fmur {
-    background: var(--background-primary);
-    border-radius: var(--radius-secondary);
-    width: 100% !important;
-  }
-  
-  // Disabled Buttons
-  .button-1EGGcP.buttonColor-3bP3fX.fauxDisabled-8w0hCZ,
-  .button-1EGGcP .buttonColor-3bP3fX.fauxDisabled-8w0hCZ,
-  .button-1EGGcP.buttonColor-3bP3fX:disabled, .button-1EGGcP
-  .buttonColor-3bP3fX:disabled {
-    background: var(--background-tertiary);
-  }
-  */
-
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Powercord               ║             Spotify                                                                      ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-
-// .container-1zzFcN {
-//   border: none;
-// }
-// .spotify-extra-controls {
-//   display: none !important;
-// }
-// .spotify-seek-elements {
-//   display: none !important;
-// }
-// .powercord-spotify.hover .spotify-extra-controls + .spotify-seek {
-//   margin-top: 0px;
-// }
-// .panels-3wFtMD .activityPanel-9icbyU {
-//   display: none;
-// }
-// .panels-3wFtMD:hover .activityPanel-9icbyU {
-//   display: block;
-// }
-
-/** Hide the 'Not seeing controls?' icon **/
-.powercord-spotify .flex-2S1XBF {
-  display: none;
-}
-
-// .spotify-buttons,
-// .spotify-extra-controls,
-// .spotify-seek-elements {
-//   display: none !important;
-// }
-// .content-1jQy2l .thin-31rlnD {
-//   background: var(-bacground-secondary);
-//   border-radius: var(--radius-primary);
-// }
