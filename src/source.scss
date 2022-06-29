@@ -24,7 +24,9 @@
 //@forward "pages/explore";
 
 // Popouts
+@forward "popouts/inbox";
 @forward "popouts/calendar";
 @forward "popouts/status-picker";
 @forward "popouts/profile";
+//@forward "popouts/vintage-profile-popout";
 @forward "popouts/emoji-picker";
