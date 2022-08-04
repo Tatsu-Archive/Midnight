@@ -19,9 +19,6 @@
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ Add-ons               ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
-
-@forward "modules/addons/Channel-Grid";
-
 @forward "modules/addons/context-icons";
 
 @forward "modules/addons/discolored";
@@ -33,8 +30,6 @@
 @forward "modules/addons/settings-icons";
 
 @forward "modules/addons/mention-links";
-
-@forward "modules/plugins/powercord";
 
 @forward "modules/addons/dash2space";
 

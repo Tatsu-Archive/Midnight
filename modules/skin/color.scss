@@ -1,11 +1,12 @@
-:root {
+.theme-dark,
+.theme-light {
   /*Font*/
   --font-primary: Poppins;
   --font-display: Poppins;
 
   /*Text*/
-  --header-primary: #fff;
-  --header-secondary: #b9bbbe;
+  --header-primary: #ffffff;
+  --header-secondary: #ffffff;
   --text-normal: #dcddde;
   --text-muted: #72767d;
   --text-link: rgb(255, 255, 255);

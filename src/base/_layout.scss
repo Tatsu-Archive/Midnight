@@ -282,7 +282,8 @@ ul.tree-3agP2X:focus {
 
 // Background (Members & Channel)
 .container-NkLXgf,
-.container-2o3qEW {
+.container-2o3qEW
+{
   background: var(--background-secondary);
   border-radius: var(--radius-primary);
 }
@@ -397,85 +398,6 @@ ul.tree-3agP2X:focus {
 }
 
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Layout                   ║ Content (Home)                                                                          ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-
-/*
-.theme-dark .background-fkKrXt {
-  background: transparent;
-}
-
-
-.chat-2ZfjoI .content-1jQy2l {
-  background: var(--background-secondary) !important;
-  border-radius: var(--radius-primary);
-}
-*/
-
-/*
-// Spacing
-.content-1jQy2l .scrollerBase-_bVAAt {
-  background: var(--background-secondary);
-  border-radius: var(--radius-primary);
-}
-
-.homeContent-2_9Iis {
-  margin: var(--inner-tertiary) var(--inner-primary) var(--inner-tertiary) var(--inner-tertiary);
-}
-
-
-// Background
-.background-1JKyRc {
-  background: transparent !important;
-}
-
-// Content
-.homeContent-2_9Iis {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  max-width: 100%;
-}
-
-// Icon
-.homeContent-2_9Iis .icon-1zKOXL {
-  grid-column: 1;
-  border-radius: 90%;
-  position: absolute;
-  z-index: 1;
-  margin: var(--inner-tertiary) 0px 0px var(--inner-tertiary);
-}
-
-// Title
-.homeContent-2_9Iis .guildInfo-3goHLV {
-  grid-column: 2;
-  background: var(--background-primary);
-  border-radius: var(--radius-secondary);
-  padding: var(--inner-secondary) var(--inner-secondary) var(--inner-secondary) calc(var(--inner-tertiary) + 64px + var(--inner-tertiary));
-}
-
-// Divider
-.divider-2ZD-IB {
-display: none;
-}
-
-// Mesages
-.homeContent-2_9Iis .topMessagesHeader-3miqCi {
-  grid-column: span 2;
-  background: var(--background-primary);
-  border-radius: var(--radius-secondary);
-  padding: var(--inner-secondary);
-  margin-top: 12px;
-}
-
-.homeContent-2_9Iis .size14-3fJ-ot {
-  grid-column: span 2;
-  background: var(--background-primary);
-  border-radius: var(--radius-secondary);
-  padding: var(--inner-secondary);
-}
-*/
-
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Layout                   ║ Content (No Page)                                                                       ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
@@ -508,7 +430,8 @@ display: none;
 
 // Background
 .chat-2ZfjoI .scrollableContainer-15eg7h,
-.chat-1-OBC7 .scrollableContainer-15eg7h {
+.chat-1-OBC7 .scrollableContainer-15eg7h, 
+.chat-25x62K .scrollableContainer-15eg7h{
   background: transparent;
 }
 
@@ -523,7 +446,8 @@ display: none;
 }
 
 .chat-2ZfjoI .form-3gdLxP,
-.chat-1-OBC7 .form-3gdLxP {
+.chat-1-OBC7 .form-3gdLxP,
+.chat-25x62K .form-3gdLxP {
   margin: 0px;
   padding: 0px;
   display: flex;
@@ -545,6 +469,11 @@ display: none;
 
 .textarea-_59yqs:focus {
   background-color: var(--background-secondary);
+}
+
+.textArea-2CLwUE{
+  background-color: var(--background-secondary);
+  border-radius: var(--radius-primary);
 }
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Layout                   ║ Input (Reply)                                                                           ║
@@ -847,4 +776,11 @@ display: none;
 .markup-eYLPri code {
   background: var(--background-primary);
   border-radius: 15px;
+}
+// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║Forum                                         ║                                                                ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+.theme-dark .container-3wLKDe{
+  background: var(--background-secondary);
+  border-radius: var(--radius-primary);
 }

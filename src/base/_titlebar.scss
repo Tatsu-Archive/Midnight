@@ -127,32 +127,6 @@
   background: var(--header-secondary);
 }
 
-/*
-// Windows Button
-.winButtonMinMax-3RsPUg:nth-child(3):after {
-  content:'';
-  width:19px;
-  height:19px;
-  -webkit-mask: var(--icon-windows-window) !important;
-  mask: var(--icon-windows-window) !important;
-  background: blue;
-  display: none;
-}
-
-
-
-
-
-:-webkit-full-screen .app-3xd6d0 {display: none !important;}
-
-:-moz-full-screen .app-3xd6d0 {display: none !important;}
-
-:-ms-fullscreen .app-3xd6d0 {display: none !important;}
-
-:fullscreen .app-3xd6d0 {display: none !important;}
-
-*/
-
 // ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Titlebar                 ║ Buttons (Close)                                                                         ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
