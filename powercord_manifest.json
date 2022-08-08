@@ -4,5 +4,5 @@
     "author": "Tatsuya#8026",
     "description": "Clean Black and White color schemed theme.",
     "license": "MIT",
-    "theme": "midnight.theme.css"
+    "theme": "theme.scss"
 }
