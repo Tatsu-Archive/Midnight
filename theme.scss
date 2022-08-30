@@ -63,32 +63,28 @@
 /* ║ Status Compact                 ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 #account.menu-1QACrS .item-1OdjEX::before {
-    content: unset;
-}
-
-#account.menu-1QACrS .headerTop-3GPUSF {
-    padding: 16px;
+    content: unset; /*Context-Icons Fix*/
 }
 
 #account.menu-1QACrS .avatarWrapper-eenWra {
     left: unset;
     right: 16px;
 }
-
 #account.menu-1QACrS .avatar-2Vndt_ svg foreignObject,
 #account.menu-1QACrS .avatarHint-k7pYop foreignObject {
     mask: none;
 }
-
 #account.menu-1QACrS .avatar-2Vndt_ svg rect {
     display: none;
 }
-
 #account.menu-1QACrS .avatar-2Vndt_ img,
 #account.menu-1QACrS .avatarHint-k7pYop {
     border-radius: 50%;
 }
-
+#account.menu-1QACrS {
+    width: 226px;
+    right: 8px;
+}
 #account.menu-1QACrS .profileBody-3QbfPe,
 #account.menu-1QACrS .separator-1So4YB,
 #account.menu-1QACrS .profileBadges-2pItdR,
@@ -97,7 +93,3 @@
 #account.menu-1QACrS .description-1Dd2kv {
     display: none;
 }
-
-.item-1OdjEX:not(#message-add-reaction):not(#message-apps) > .iconContainer-1-SsTR {
-    display: none;
-  }
