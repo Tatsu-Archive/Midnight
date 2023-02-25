@@ -12,12 +12,6 @@
 @import "https://crearts-community.github.io/Friends-Grid/modules/plugins/powercord.css";
 @import "https://crearts-community.github.io/Settings-Icons/clients/settings-icons.theme.css";
 @import "https://crearts-community.github.io/Mention-Links/src/source.css";
-.theme-dark .container-YkUktl,
-.container-1zzFcN,
-.theme-dark .scroller-3X7KbA,
-.theme-dark .container-1NXEtd {
-  background: transparent !important;
-}
 .scroller-3X7KbA > .listItem-3SmSlK:nth-child(3) {
   display: none;
 }
@@ -749,14 +743,6 @@ path[d="M19.738 10H22V14H19.739C19.498 14.931 19.1 15.798 18.565 16.564L20 18L18
 .wrapper-1ZcZW-[class="wrapper-1ZcZW- mention interactive"] {
   font-family: dash2space, var(--font-primary);
   text-transform: capitalize;
-}
-.container-1NXEtd:hover {
-  margin-bottom: 0px;
-}
-.container-1NXEtd:hover + .panels-3wFtMD {
-  height: 0px;
-  margin-top: 0px;
-  transition: all 0.2s ease-in-out;
 }
 .theme-dark,
 .theme-light {
