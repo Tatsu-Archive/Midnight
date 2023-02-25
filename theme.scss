@@ -2,7 +2,7 @@
 /* ║ Alignment             ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-@forward "modules/alignment/index"; 
+@forward "modules/alignment/index";
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║  Remove                ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
@@ -33,7 +33,7 @@
 
 @forward "modules/addons/dash2space";
 
-//@forward "modules/addons/hide-panels";
+@forward "modules/addons/hide-panels";
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ SRC                      ║ Do not comment out these lines! By disabling the theme can not work correctly.          ║ */
@@ -46,16 +46,25 @@
 /* ║ Snippets                 ║ To disable certain things, you can comment out the lines. Use "/* " in front.           ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 .container-YkUktl:not(.powercord-spotify .container-YkUktl) .avatarWrapper-1B9FTW {
-    grid-column: 1 / span 2;
-  }
-  
-  .container-YkUktl:not(.powercord-spotify .container-YkUktl) .withTagAsButton-OsgQ9L, .withTagless-10ooWt {
-    min-width: unset !important;
-  }
-  
-  .container-YkUktl:not(.powercord-spotify .container-YkUktl) .nameTag-sc-gpq {
-    background: transparent;
-    position: relative;
-    margin: 0px;
-    left: 8px;
-  }
+  grid-column: 1 / span 2;
+}
+
+.container-YkUktl:not(.powercord-spotify .container-YkUktl) .withTagAsButton-OsgQ9L,
+.withTagless-10ooWt {
+  min-width: unset !important;
+}
+
+.container-YkUktl:not(.powercord-spotify .container-YkUktl) .nameTag-sc-gpq {
+  background: transparent;
+  position: relative;
+  margin: 0px;
+  left: 8px;
+}
+
+.theme-dark .container-YkUktl,
+.container-1zzFcN,
+.theme-dark .scroller-3X7KbA,
+.theme-dark .container-1NXEtd,
+.theme-dark .panel-2ZFCRb{
+  background: transparent !important;
+}
