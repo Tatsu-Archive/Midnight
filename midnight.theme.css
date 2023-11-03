@@ -2472,3 +2472,17 @@ ul.tree__7a511:focus {
 .theme-dark :is(.panel_bd8c76, .panel_bd8c76) {
   background: rgba(0, 0, 0, 0) !important;
 }
+
+.increasedActivityMainCard__916ed{
+  background-color: var(--background-primary);
+}
+
+.container_b181b6{
+  border-radius: var(--radius-primary);
+  background-color: var(--background-secondary);
+}
+
+.chatHeaderBar_c1df53{
+  margin: 0px 10px 10px 5px;
+  border-radius: var(--radius-secondary);
+}
