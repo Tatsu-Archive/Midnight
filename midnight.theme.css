@@ -2473,6 +2473,7 @@ ul.tree__7a511:focus {
   background: rgba(0, 0, 0, 0) !important;
 }
 
+/*Forum*/
 .increasedActivityMainCard__916ed{
   background-color: var(--background-primary);
 }
@@ -2485,4 +2486,16 @@ ul.tree__7a511:focus {
 .chatHeaderBar_c1df53{
   margin: 0px 10px 10px 5px;
   border-radius: var(--radius-secondary);
+}
+
+/* Rounded Context Menu */
+.menu-2TXYjN { 
+    border-radius: 10px; 
+}
+
+/*Vencord player*/
+.theme-dark #vc-spotify-player{
+    background-color: var(--background-secondary);
+    margin: 10px 1px 1px 1px;
+    
 }
